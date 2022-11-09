@@ -1,0 +1,46 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "Sno": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+	"Date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "Time": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "State/UnionTerritory": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "ConfirmedIndianNational": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "ConfirmedForeignNational": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "Cured": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+	"Deaths": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+	"Confirmed": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}
